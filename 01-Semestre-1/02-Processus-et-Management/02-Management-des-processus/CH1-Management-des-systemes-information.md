@@ -47,4 +47,4 @@ le systeme d'information de l'entreprise
 - Découpage par fonction métiers 
 - Réprésentation des échanges et interconnexions des écosystèles qui composent le SI 
 - liaisons internes 
-- liaisions externes ![[IMG_7263.jpeg]]
+- liaisions externes ![[assets/IMG_7263.jpeg]]

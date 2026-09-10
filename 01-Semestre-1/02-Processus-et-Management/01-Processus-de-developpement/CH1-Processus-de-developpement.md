@@ -195,7 +195,7 @@ Le modèle en cascade fait partie des processus dirigés par la planification. I
 
 À gauche, le modèle réduit l’incertitude par l’étude et la conception. À droite, il matérialise puis vérifie la solution.
 
-![[IMG_7273 1.jpeg]]
+![[assets/IMG_7273 1.jpeg]]
 
 *Figure — Modèle en cascade.*
 
@@ -210,7 +210,7 @@ Le modèle en cascade fait partie des processus dirigés par la planification. I
 > [!note] Limite de la prévision
 > Une prévision détaillée n’est pas nécessairement une prévision exacte.
 
-![[IMG_7275.jpeg]]
+![[assets/IMG_7275.jpeg]]
 
 *Figure — Ce que la cascade rend possible.*
 
@@ -229,7 +229,7 @@ Le modèle en V fait partie des processus dirigés par la planification. Il met 
 
 Chaque niveau de définition prépare un niveau de test correspondant.
 
-![[IMG_7276.jpeg]]
+![[assets/IMG_7276.jpeg]]
 
 *Figure — Correspondance entre les niveaux de définition et de test dans le modèle en V.*
 
@@ -275,7 +275,7 @@ La validation peut être réalisée à plusieurs niveaux :
 > [!important] Préciser « correct »
 > Préparer un test tôt oblige à préciser ce que « correct » signifie.
 
-![[IMG_7277.jpeg]]
+![[assets/IMG_7277.jpeg]]
 
 *Figure — Validation à plusieurs granularités. La partie « recette » de la photographie est partiellement coupée. L’image est conservée pour ne perdre aucune information.*
 
@@ -392,7 +392,7 @@ Le review et le feedback servent ensuite à adapter le Product Backlog.
 - **Transparence** : rendre le travail et son état compréhensibles
 - **Feedback** : inspecter le résultat et adapter la suite
 
-![[IMG_7289.jpeg]]
+![[assets/IMG_7289.jpeg]]
 
 *Figure — Flux entre le Product Backlog, le Sprint et l’incrément.*
 
@@ -537,7 +537,7 @@ Mesures utiles : **WIP**, **débit**, **temps de cycle** et **âge des élément
 
 Le problème visible est que la colonne « À valider » dépasse sa limite. Commencer encore du travail aggrave le goulot.
 
-![[IMG_7302.jpeg]]
+![[assets/IMG_7302.jpeg]]
 
 *Figure — Visualisation du travail et des goulots d’étranglement.*
 
@@ -580,7 +580,6 @@ L’encadrant de TP est Product Owner par défaut. Un étudiant peut reprendre c
 
 > [!tip] Démarrage du projet
 > Ne cherchez pas un backlog totalement complet. Cherchez le prochain incrément qui vous apprendra quelque chose.
-
 
 
 
