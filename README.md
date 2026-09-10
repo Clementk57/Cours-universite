@@ -4,6 +4,11 @@ Coffre Obsidian organisé pour les cours de M1.
 
 ## Organisation
 
+- `01-Semestre-1` contient les cours actuels
+- `02-Semestre-2` reprend la même structure et reste vide pour le moment
+
+Chaque semestre contient les catégories suivantes :
+
 - `01-Intelligence-Artificielle`
 - `02-Processus-et-Management`
 - `03-DevOps`
