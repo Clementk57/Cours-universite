@@ -24,6 +24,10 @@
 
 - [[01-Semestre-1/04-Administration/Connexion-ENT-et-Co|Connexion ENT et Co]]
 
+### Optimisation non linéaire
+
+- [[01-Semestre-1/05-Optimisation-non-lineaire/00-Optimisation-non-lineaire|Optimisation non linéaire]]
+
 ## 02 - Semestre 2
 
 > [!todo] À compléter
