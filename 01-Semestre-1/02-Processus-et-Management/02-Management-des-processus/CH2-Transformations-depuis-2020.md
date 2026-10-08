@@ -138,3 +138,23 @@ Le concept de **géopatriation** permet aux entreprises d’atténuer les risque
 
 > [!tip] Remarque finale
 > Il faut rester vigilant parce que tout va très vite.
+
+Bonjour [Prénom],
+
+Je m’appelle Clément Kontzler et je suis étudiant en Master Intellegience Artificiel. Avec mon groupe, nous travaillons sur l’utilisation concrète des systèmes d’IA multi-agents dans les entreprises.
+
+J’ai découvert le projet **[nom du projet]** développé par **[entreprise]** et je cherche à mieux comprendre ce qui a été mis en place sur le terrain.
+
+Si vous avez quelques minutes, j’aurais quatre questions :
+
+- Pourquoi avoir choisi plusieurs agents plutôt qu’un agent unique ?
+- Quels processus sont assistés ou transformés par la solution ?
+- Quels bénéfices avez-vous observés : temps, coûts, charge de travail ou qualité ?
+- Quelles sont les principales difficultés ou limites rencontrées ?
+
+Nous ne recherchons aucune information confidentielle. Un retour général, même assez court et uniquement par écrit, nous serait déjà très utile.
+
+Merci beaucoup pour votre aide,
+
+Clément Kontzler  
+Étudiant en Master Intellegience Artificielle

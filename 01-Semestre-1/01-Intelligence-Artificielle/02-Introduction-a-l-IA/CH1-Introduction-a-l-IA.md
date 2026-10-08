@@ -1,5 +1,7 @@
 
 artifical intelligence 
-machine leaning 
-deep learning 
+machine leaning
+deep learning
+
+
 
