@@ -1340,6 +1340,118 @@ et $\Delta x^0=0$.
 >
 > À cette étape, le momentum rapproche plus vite Sly de la position optimale $x=4$. Il faut toutefois garder $\beta$ et $\alpha$ raisonnables pour éviter de dépasser trop fortement la cible.
 
+## Suite des exercices — Du calcul différentiel à Newton
+
+> [!info] Itinéraire conseillé
+> Les exercices 1 à 17 reprennent les bases, la convexité et le gradient. Les exercices suivants complètent la suite du cours. Pour revoir les notions, consulte [[02-Calculs-gradient-et-hessienne]], [[03-Dichotomie-et-Newton]] et [[04-Quasi-Newton-et-gradient-stochastique]].
+
+### Exercice 18 — Dérivées usuelles
+
+Calcule les dérivées première et seconde de $e^x$ et de $\ln x$. Précise le domaine et indique si chaque fonction est convexe ou concave.
+
+> [!success]- Correction
+> Pour $e^x$, définie sur $\mathbb R$, les deux dérivées valent $e^x$. La dérivée seconde est strictement positive donc la fonction est strictement convexe.
+>
+> Pour $\ln x$, définie pour $x>0$, les dérivées sont $1/x$ et $-1/x^2$. La seconde est strictement négative donc la fonction est strictement concave.
+
+### Exercice 19 — Forme quadratique
+
+Soit $f(x)=x^TQx+c^Tx$ avec :
+
+$$
+Q=\begin{pmatrix}1&2\\3&1\end{pmatrix}
+\qquad
+c=\begin{pmatrix}1\\2\end{pmatrix}.
+$$
+
+Développe $f$, calcule son gradient et sa Hessienne. Les valeurs propres de la Hessienne sont-elles toutes positives ?
+
+> [!success]- Correction
+> En développant $Qx$ puis en multipliant par $x^T$ :
+>
+> $$
+> f(x)=x_1^2+5x_1x_2+x_2^2+x_1+2x_2.
+> $$
+>
+> Donc :
+>
+> $$
+> \nabla f=\begin{pmatrix}2x_1+5x_2+1\\5x_1+2x_2+2\end{pmatrix}
+> \qquad
+> \nabla^2f=\begin{pmatrix}2&5\\5&2\end{pmatrix}.
+> $$
+>
+> Les valeurs propres sont $7$ et $-3$. Elles sont de signes opposés. La Hessienne est indéfinie et $f$ n'est pas convexe sur $\mathbb R^2$.
+
+### Exercice 20 — Deux étapes de dichotomie
+
+Cherche la racine de $h(x)=x^2-2$ dans $[1,2]$ en effectuant deux découpages. Quelle largeur reste-t-il ?
+
+> [!success]- Correction
+> $h(1)=-1$ et $h(2)=2$. Le milieu vaut $1{,}5$ et $h(1{,}5)=0{,}25$. On garde $[1,1{,}5]$.
+>
+> Son milieu vaut $1{,}25$ et $h(1{,}25)=-0{,}4375$. On garde $[1{,}25,1{,}5]$. La largeur restante vaut $0{,}25$.
+
+### Exercice 21 — Newton à une variable
+
+Applique une itération de Newton à $h(x)=x^2-2$ en partant de $x_0=1{,}5$. Compare avec $\sqrt2$.
+
+> [!success]- Correction
+> $h'(x)=2x$. Donc :
+>
+> $$
+> x_1=x_0-\frac{h(x_0)}{h'(x_0)}
+> =1{,}5-\frac{0{,}25}{3}
+> =1{,}416\overline6.
+> $$
+>
+> Cette valeur est proche de $\sqrt2\approx1{,}4142$. Il faut vérifier que le dénominateur n'est pas nul.
+
+### Exercice 22 — Une étape de Newton en dimension 2
+
+Soit $f(x_1,x_2)=x_1^2+2x_2^2$. Calcule la direction de Newton et le point suivant depuis $x^0=(2,-1)$ avec un pas de 1.
+
+> [!success]- Correction
+> On a $\nabla f(x)=(2x_1,4x_2)^T$ et $H=\operatorname{diag}(2,4)$. Au point initial, le gradient vaut $(4,-4)^T$.
+>
+> On résout $Hd=-\nabla f=(-4,4)^T$. On obtient $d=(-2,1)^T$ puis $x^1=(0,0)^T$. Ici, une seule itération suffit car la fonction est quadratique et sa Hessienne est constante définie positive.
+
+### Exercice 23 — Vérifier la condition de sécante
+
+On donne $H_k=I$, $s=(1,0)^T$ et $y=(2,0)^T$. Calcule la mise à jour DFP et vérifie $H_{k+1}y=s$.
+
+> [!success]- Correction
+> $s^Ty=2$ et $y^TH_ky=4$. Les deux dénominateurs sont non nuls et $s^Ty>0$.
+>
+> $$
+> H_{k+1}
+> =I+\begin{pmatrix}1/2&0\\0&0\end{pmatrix}
+> -\begin{pmatrix}1&0\\0&0\end{pmatrix}
+> =\begin{pmatrix}1/2&0\\0&1\end{pmatrix}.
+> $$
+>
+> Ainsi $H_{k+1}y=(1,0)^T=s$. La matrice obtenue est définie positive.
+
+### Exercice 24 — Gradient complet et mini-lot
+
+Soient $\ell_1(w)=(w-1)^2$ et $\ell_2(w)=(w+1)^2$. On définit $F=(\ell_1+\ell_2)/2$. Depuis $w=1$ avec $\alpha=0{,}1$, calcule une mise à jour avec le gradient complet puis une autre en utilisant seulement $\ell_2$.
+
+> [!success]- Correction
+> Les dérivées sont $\ell_1'(w)=2(w-1)$ et $\ell_2'(w)=2(w+1)$. En $w=1$, elles valent respectivement $0$ et $4$.
+>
+> Le gradient complet vaut $(0+4)/2=2$. La nouvelle valeur est $1-0{,}1\times2=0{,}8$.
+>
+> Avec le seul deuxième exemple, elle vaut $1-0{,}1\times4=0{,}6$. Le mini-lot donne ici une correction différente de celle du jeu complet.
+
+### Exercice 25 — Entropie croisée
+
+Pour un exemple, la perte non moyennée est $\ell=-[t\ln y+(1-t)\ln(1-y)]$. Calcule-la lorsque la cible est $t=1$ et que la prédiction vaut $y=0{,}8$, puis lorsque $y=0{,}2$. Quelle prédiction est la meilleure ?
+
+> [!success]- Correction
+> Comme $t=1$, la formule devient $\ell=-\ln y$. Pour $y=0{,}8$, elle vaut environ $0{,}223$. Pour $y=0{,}2$, elle vaut environ $1{,}609$.
+>
+> La prédiction $0{,}8$ est meilleure pour une cible égale à $1$ car elle donne une perte plus faible. Dans la formule du cours, chaque terme est en plus multiplié par $1/N$.
+
 ## Quiz de vérification rapide
 
 1. Un gradient nul suffit-il à prouver qu'un point est un minimum ?

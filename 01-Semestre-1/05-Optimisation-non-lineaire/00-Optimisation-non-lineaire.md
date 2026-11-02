@@ -1,5 +1,15 @@
 # Optimisation non linéaire
 
+> [!abstract] Parcours du cours
+> Cette note rassemble les bases, la convexité et le début des méthodes de gradient. La suite du même cours est organisée dans [[02-Calculs-gradient-et-hessienne|calculs de gradient et Hessienne]], [[03-Dichotomie-et-Newton|dichotomie et Newton]] puis [[04-Quasi-Newton-et-gradient-stochastique|quasi-Newton et gradient stochastique]].
+>
+> Pour réviser progressivement : [[01-Exercices-et-exemples]]. La note [[00-Optimisation-non-lineaire 1|source avec photographies]] est conservée.
+
+> [!tip] Lecture en petites parties
+> [[05-Bases-et-optimalite|1. Bases et optimalité]] → [[06-Convexite-et-valeurs-propres|2. Convexité et valeurs propres]] → [[07-Methodes-du-gradient|3. Méthodes du gradient]] → [[02-Calculs-gradient-et-hessienne|4. Calculs du cours]] → [[03-Dichotomie-et-Newton|5. Dichotomie et Newton]] → [[04-Quasi-Newton-et-gradient-stochastique|6. Quasi-Newton et gradient stochastique]].
+>
+> Les trois premières parties reprennent le contenu de cette note pour permettre une lecture découpée. Cette version complète est conservée pour les liens existants.
+
 > [!abstract] Chapitre 1 — Introduction et bases mathématiques
 > Cours retranscrit à partir des photos du tableau et des diapositives.
 
@@ -52,7 +62,7 @@ $$
 Lorsque les fonctions de l'objectif et des contraintes sont linéaires, le problème appartient à la **programmation linéaire**.
 
 > [!note] Domaine positif
-> $mathbb{R}_+^2$ désigne les couples $(x_1,x_2)$ dont les deux composantes sont positives ou nulles.
+> $\mathbb{R}_+^2$ désigne les couples $(x_1,x_2)$ dont les deux composantes sont positives ou nulles.
 
 ### Exemples de programmes non linéaires
 
@@ -182,7 +192,7 @@ f'(x) = 4x.
 $$
 
 > [!tip] Condition nécessaire au point optimal
-> Dans le cadre différentiable présenté en cours, la dérivée est nulle à l'optimum.
+> Pour une fonction différentiable, la dérivée est nulle à un optimum local situé à l'intérieur du domaine. Ce résultat ne s'applique pas nécessairement à un point situé sur une frontière.
 
 La tangente à la courbe de $f$ au point d'abscisse $a$ est donnée par :
 
@@ -1271,7 +1281,7 @@ $$
 \alpha_k=\frac1k.
 $$
 
-Sous les hypothèses de régularité et de convergence du théorème, cette suite conduit vers un point stationnaire.
+La diapositive annonce une convergence vers un point stationnaire sans préciser les hypothèses nécessaires. Le choix des pas seul ne suffit pas à garantir cette conclusion pour toute fonction. Il faut vérifier les hypothèses du théorème avant de l'appliquer.
 
 > [!info] Intuition
 > Au début, les pas sont grands pour explorer rapidement. Ensuite, ils deviennent plus petits pour stabiliser l'approche du point stationnaire.
