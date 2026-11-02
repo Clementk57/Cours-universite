@@ -3,6 +3,9 @@
 > [!info] Origine
 > Transcription des photographies du cours du 2 novembre. Les exemples pédagogiques sont signalés comme des compléments.
 
+> [!example] Pour pratiquer
+> Retrouve les documents et les explications dans [[Explication du TP perceptron|le TP sur le perceptron]].
+
 ## 1. Neurones binaires
 
 Un neurone binaire possède deux états. Le cours utilise deux notations équivalentes :
