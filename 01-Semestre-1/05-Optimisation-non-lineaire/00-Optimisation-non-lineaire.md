@@ -4,6 +4,8 @@
 > Cette note rassemble les bases, la convexité et le début des méthodes de gradient. La suite du même cours est organisée dans [[02-Calculs-gradient-et-hessienne|calculs de gradient et Hessienne]], [[03-Dichotomie-et-Newton|dichotomie et Newton]] puis [[04-Quasi-Newton-et-gradient-stochastique|quasi-Newton et gradient stochastique]].
 >
 > Pour réviser progressivement : [[01-Exercices-et-exemples]]. La note [[00-Optimisation-non-lineaire 1|source avec photographies]] est conservée.
+>
+> Pour retrouver la feuille du professeur et sa correction : [[TD1|TD 1 — optimisation sans contrainte]].
 
 > [!tip] Lecture en petites parties
 > [[05-Bases-et-optimalite|1. Bases et optimalité]] → [[06-Convexite-et-valeurs-propres|2. Convexité et valeurs propres]] → [[07-Methodes-du-gradient|3. Méthodes du gradient]] → [[02-Calculs-gradient-et-hessienne|4. Calculs du cours]] → [[03-Dichotomie-et-Newton|5. Dichotomie et Newton]] → [[04-Quasi-Newton-et-gradient-stochastique|6. Quasi-Newton et gradient stochastique]].
