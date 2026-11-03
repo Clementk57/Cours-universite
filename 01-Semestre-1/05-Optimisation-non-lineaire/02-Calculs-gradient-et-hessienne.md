@@ -3,6 +3,9 @@
 > [!info] Place dans le cours
 > Cette fiche reprend les calculs du 5 octobre. Elle prolonge les [[00-Optimisation-non-lineaire#Gradient et Hessienne|bases sur le gradient et la Hessienne]] et prépare les [[03-Dichotomie-et-Newton|méthodes de Newton]].
 
+> [!tip] Besoin de revoir les calculs de matrices ?
+> La fiche [[08-Comprendre-la-hessienne-pas-a-pas|Comprendre la Hessienne pas à pas]] détaille chaque multiplication, dérivée, case de la matrice, déterminant et valeur propre de l'exemple ci-dessous.
+
 ## 1. Dérivées de référence
 
 Pour $f_1(x)=e^x$ :
@@ -48,6 +51,39 @@ p_j(1-p_j) & j=k\\
 -p_jp_k & j\neq k.
 \end{cases}
 $$
+
+### Détail du calcul de chaque case
+
+On dérive la composante $p_j=e^{x_j}/S$ par rapport à $x_k$. Pour un quotient $u/v$, on utilise $(u'v-uv')/v^2$. Ici $\partial S/\partial x_k=e^{x_k}$.
+
+Si $j=k$, le numérateur dépend aussi de $x_k$. Sa dérivée vaut $e^{x_j}$ :
+
+$$
+\frac{\partial p_j}{\partial x_j}
+=\frac{e^{x_j}S-e^{x_j}e^{x_j}}{S^2}
+=\frac{e^{x_j}}S\left(1-\frac{e^{x_j}}S\right)
+=p_j(1-p_j).
+$$
+
+Si $j\neq k$, le numérateur $e^{x_j}$ est constant par rapport à $x_k$. Sa dérivée est donc zéro :
+
+$$
+\frac{\partial p_j}{\partial x_k}
+=\frac{0\times S-e^{x_j}e^{x_k}}{S^2}
+=-p_jp_k.
+$$
+
+Pour deux variables, il suffit de placer ces résultats dans les quatre cases :
+
+$$
+H_f=
+\begin{pmatrix}
+p_1(1-p_1)&-p_1p_2\\
+-p_1p_2&p_2(1-p_2)
+\end{pmatrix}.
+$$
+
+Comme $p_1+p_2=1$, cela devient $p_1p_2\begin{pmatrix}1&-1\\-1&1\end{pmatrix}$. On voit ainsi pourquoi la forme générale ci-dessous contient une diagonale et un produit de vecteurs.
 
 La Hessienne s'écrit donc $\nabla^2 f_3=\operatorname{diag}(p)-pp^T$. Pour tout vecteur $v$ :
 

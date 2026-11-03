@@ -1,0 +1,27 @@
+# Archives photographiques — Cours 4
+
+Ces 23 images sont les sources de [[COUR 4|la transcription du 3 novembre]]. Les graphiques utiles sont intégrés dans la note. Les liens ci-dessous ouvrent les originaux.
+
+- [[assets/COUR-4/sources/20261103_074103050_iOS.heic|20261103_074103050_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_074429868_iOS.heic|20261103_074429868_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_074939359_iOS.heic|20261103_074939359_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_075318292_iOS.heic|20261103_075318292_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_075610651_iOS.heic|20261103_075610651_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080100837_iOS.heic|20261103_080100837_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080204178_iOS.heic|20261103_080204178_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080329251_iOS.heic|20261103_080329251_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080605662_iOS.heic|20261103_080605662_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080728546_iOS.heic|20261103_080728546_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080910586_iOS.heic|20261103_080910586_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_080928271_iOS.heic|20261103_080928271_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081010612_iOS.heic|20261103_081010612_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081052089_iOS.heic|20261103_081052089_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081108907_iOS.heic|20261103_081108907_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081154589_iOS.heic|20261103_081154589_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081226848_iOS.heic|20261103_081226848_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081510090_iOS.heic|20261103_081510090_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081607482_iOS.heic|20261103_081607482_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_081934816_iOS.heic|20261103_081934816_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_082847328_iOS.heic|20261103_082847328_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_082948412_iOS.heic|20261103_082948412_iOS.heic]]
+- [[assets/COUR-4/sources/20261103_083233826_iOS.heic|20261103_083233826_iOS.heic]]

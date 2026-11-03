@@ -262,3 +262,37 @@ Ces images sont les sources de la transcription. Pour lire le cours, revenir à 
 ![[assets/20261013_092108729_iOS.heic]]
 
 ![[assets/20261013_092643610_iOS.heic]]
+
+## Photos du chapitre des méthodes de gradient
+
+Ces photographies ont été déplacées depuis le début des exercices. Les explications et les graphiques utiles figurent dans [[07-Methodes-du-gradient]].
+
+- [[assets/IMG_7430.jpeg|IMG_7430.jpeg]]
+- [[assets/IMG_7432.jpeg|IMG_7432.jpeg]]
+- [[assets/IMG_7433.jpeg|IMG_7433.jpeg]]
+- [[assets/IMG_7434.jpeg|IMG_7434.jpeg]]
+- [[assets/IMG_7435.jpeg|IMG_7435.jpeg]]
+- [[assets/IMG_7436.jpeg|IMG_7436.jpeg]]
+- [[assets/IMG_7438.jpeg|IMG_7438.jpeg]]
+- [[assets/IMG_7439.jpeg|IMG_7439.jpeg]]
+- [[assets/IMG_7440.jpeg|IMG_7440.jpeg]]
+- [[assets/IMG_7441.jpeg|IMG_7441.jpeg]]
+- [[assets/IMG_7443.jpeg|IMG_7443.jpeg]]
+- [[assets/IMG_7444.jpeg|IMG_7444.jpeg]]
+- [[assets/IMG_7445.jpeg|IMG_7445.jpeg]]
+- [[assets/IMG_7446.jpeg|IMG_7446.jpeg]]
+- [[assets/IMG_7447.jpeg|IMG_7447.jpeg]]
+- [[assets/IMG_7448.jpeg|IMG_7448.jpeg]]
+- [[assets/IMG_7449.jpeg|IMG_7449.jpeg]]
+- [[assets/IMG_7450.jpeg|IMG_7450.jpeg]]
+- [[assets/IMG_7451.jpeg|IMG_7451.jpeg]]
+- [[assets/IMG_7452.jpeg|IMG_7452.jpeg]]
+- [[assets/IMG_7454.jpeg|IMG_7454.jpeg]]
+- [[assets/IMG_7456.jpeg|IMG_7456.jpeg]]
+- [[assets/IMG_7457.jpeg|IMG_7457.jpeg]]
+- [[assets/IMG_7458.jpeg|IMG_7458.jpeg]]
+- [[assets/IMG_7460.jpeg|IMG_7460.jpeg]]
+- [[assets/IMG_7461.jpeg|IMG_7461.jpeg]]
+- [[assets/IMG_7462.jpeg|IMG_7462.jpeg]]
+- [[assets/IMG_7463.jpeg|IMG_7463.jpeg]]
+- [[assets/IMG_7464.jpeg|IMG_7464.jpeg]]
