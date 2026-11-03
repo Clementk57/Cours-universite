@@ -6,8 +6,8 @@
 > [!abstract] À quoi sert cette note
 > Cette fiche accompagne [[00-Optimisation-non-lineaire]]. Elle reprend la même méthode sur des exemples très simples avant de revenir aux exercices du cours.
 
-> [!example] La feuille du professeur
-> Pour travailler les exercices officiels et leurs corrections détaillées, ouvre [[TD1|le TD 1 sur l'optimisation sans contrainte]].
+> [!example] La séance photographiée
+> Pour refaire l'exercice 1 de la feuille et suivre les exercices 2 et 3 tels qu'ils apparaissent sur les photos du tableau, ouvre [[TD1|le TD 1]].
 
 ## La méthode à suivre à chaque fois
 

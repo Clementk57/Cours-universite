@@ -5,7 +5,7 @@
 >
 > Pour réviser progressivement : [[01-Exercices-et-exemples]]. La note [[00-Optimisation-non-lineaire 1|source avec photographies]] est conservée.
 >
-> Pour retrouver la feuille du professeur et sa correction : [[TD1|TD 1 — optimisation sans contrainte]].
+> Pour refaire l'exercice 1 et suivre les exercices 2 et 3 photographiés au tableau : [[TD1|TD 1]].
 
 > [!tip] Lecture en petites parties
 > [[05-Bases-et-optimalite|1. Bases et optimalité]] → [[06-Convexite-et-valeurs-propres|2. Convexité et valeurs propres]] → [[07-Methodes-du-gradient|3. Méthodes du gradient]] → [[02-Calculs-gradient-et-hessienne|4. Calculs du cours]] → [[03-Dichotomie-et-Newton|5. Dichotomie et Newton]] → [[04-Quasi-Newton-et-gradient-stochastique|6. Quasi-Newton et gradient stochastique]].
