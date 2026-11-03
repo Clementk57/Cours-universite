@@ -26,7 +26,7 @@
 
 ### Énoncé de la feuille
 
-**Source : photos [[assets/TD1/sources/20261103_123520848_iOS.jpg|10]] et [[assets/TD1/sources/20261103_133808186_iOS.heic|31]].** La feuille demande, pour chacune des fonctions suivantes, le domaine de définition, le gradient et, lorsqu'elle existe, la Hessienne :
+**Source : photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_123520848_iOS.jpg|10]] et [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_133808186_iOS.jpg|31]].** La feuille demande, pour chacune des fonctions suivantes, le domaine de définition, le gradient et, lorsqu'elle existe, la Hessienne :
 
 $$
 \begin{aligned}
@@ -205,7 +205,7 @@ $$
 
 ### Fonction, gradient et Hessienne
 
-**Au tableau, photos [[assets/TD1/sources/20261103_120915130_iOS.heic|01]] et [[assets/TD1/sources/20261103_120917962_iOS.heic|02]] :**
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_120915130_iOS.jpg|01]] et [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_120917962_iOS.jpg|02]] :**
 
 $$
 f(x_1,x_2)=x_1^4+x_2^4-2x_1^2+4x_1x_2-2x_2^2.
@@ -230,7 +230,7 @@ $$
 
 ### Les trois candidats
 
-**Au tableau, photos [[assets/TD1/sources/20261103_121319940_iOS.heic|03]] et [[assets/TD1/sources/20261103_121644325_iOS.heic|04]] :** un point stationnaire annule le gradient. Le facteur $4$ ne change pas les solutions, donc
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_121319940_iOS.jpg|03]] et [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_121644325_iOS.jpg|04]] :** un point stationnaire annule le gradient. Le facteur $4$ ne change pas les solutions, donc
 
 $$
 \begin{cases}
@@ -265,7 +265,7 @@ $$
 
 ### Hessienne aux deux points non nuls
 
-**Au tableau, photos [[assets/TD1/sources/20261103_122151757_iOS.heic|05]], [[assets/TD1/sources/20261103_122333818_iOS.heic|06]] et [[assets/TD1/sources/20261103_123239500_iOS.heic|08]] :** puisque les coordonnées des deux points ont un carré égal à $2$,
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_122151757_iOS.jpg|05]], [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_122333818_iOS.jpg|06]] et [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_123239500_iOS.jpg|08]] :** puisque les coordonnées des deux points ont un carré égal à $2$,
 
 $$
 \nabla^2 f(x^{(1)})=\nabla^2 f(x^{(2)})
@@ -288,11 +288,11 @@ Les valeurs propres de **$A$** sont $4$ et $6$. Elles sont positives. Le profess
 > [!warning] Précision pour refaire le calcul
 > La Hessienne entière vaut $4A$. Ses valeurs propres sont donc $16$ et $24$. Le tableau affiche $4$ et $6$ parce qu'il étudie d'abord la matrice $A$. Les deux façons de faire donnent le même signe et la même conclusion locale.
 
-La photo [[assets/TD1/sources/20261103_123452216_iOS.heic|09]] rappelle le lien entre le signe d'une matrice et ses valeurs propres. Ici les matrices sont **symétriques**, ce qui permet d'utiliser ce critère. La photo [[assets/TD1/sources/20261103_122758197_iOS.heic|07]] rappelle aussi que, pour une matrice $2\times2$, $\det\begin{pmatrix}a&b\\c&d\end{pmatrix}=ad-bc$.
+La photo [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_123452216_iOS.jpg|09]] rappelle le lien entre le signe d'une matrice et ses valeurs propres. Ici les matrices sont **symétriques**, ce qui permet d'utiliser ce critère. La photo [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_122758197_iOS.jpg|07]] rappelle aussi que, pour une matrice $2\times2$, $\det\begin{pmatrix}a&b\\c&d\end{pmatrix}=ad-bc$.
 
 ### Hessienne à l'origine
 
-**Au tableau, photos [[assets/TD1/sources/20261103_123824927_iOS.heic|11]] à [[assets/TD1/sources/20261103_124437729_iOS.heic|13]] :**
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_123824927_iOS.jpg|11]] à [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_124437729_iOS.jpg|13]] :**
 
 La photo 11 écrit d'abord $H_0=4B$ avec $B=\begin{pmatrix}-1&1\\1&-1\end{pmatrix}$. Le calcul qui suit sur les photos 12 et 13 utilise la Hessienne complète :
 
@@ -310,14 +310,14 @@ $$
 =\lambda(\lambda+8).
 $$
 
-Il trouve $\lambda_1=0$ et $\lambda_2=-8$. Une direction est sans courbure à l'ordre deux, l'autre est tournée vers le bas. Le test de la Hessienne **ne suffit pas à départager maximum et point selle** à l'origine. Les petits tracés de minimum, maximum et point selle restent visibles sur la [[assets/TD1/sources/20261103_124437729_iOS.heic|photo 13]].
+Il trouve $\lambda_1=0$ et $\lambda_2=-8$. Une direction est sans courbure à l'ordre deux, l'autre est tournée vers le bas. Le test de la Hessienne **ne suffit pas à départager maximum et point selle** à l'origine. Les petits tracés de minimum, maximum et point selle restent visibles sur la [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_124437729_iOS.jpg|photo 13]].
 
 > [!example] Explication du déterminant
 > Pour la matrice $\begin{pmatrix}-4-\lambda&4\\4&-4-\lambda\end{pmatrix}$, multiplie les deux cases de la diagonale et retranche le produit des cases croisées. Cela donne $(-4-\lambda)^2-4\times4$. En développant, $\lambda^2+8\lambda+16-16=\lambda(\lambda+8)$.
 
 ### Directions propres photographiées
 
-**Au tableau, photos [[assets/TD1/sources/20261103_125128570_iOS.heic|14]] à [[assets/TD1/sources/20261103_125619108_iOS.heic|19]] :** le professeur résout $H_0v=\lambda v$.
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_125128570_iOS.jpg|14]] à [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_125619108_iOS.jpg|19]] :** le professeur résout $H_0v=\lambda v$.
 
 Pour $\lambda_1=0$, les deux lignes imposent $v_1=v_2$. Il choisit le vecteur de norme $1$
 
@@ -336,7 +336,7 @@ $$
 
 ### Ce que vaut la fonction le long de ces directions
 
-**Au tableau, photos [[assets/TD1/sources/20261103_130156533_iOS.heic|20]], [[assets/TD1/sources/20261103_130348915_iOS.heic|21]] et [[assets/TD1/sources/20261103_130639060_iOS.heic|22]] :** le professeur paramètre les deux droites par $(\alpha,\alpha)$ et $(\alpha,-\alpha)$. Il utilise donc les mêmes **directions**, sans le facteur de normalisation $1/\sqrt2$.
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_130156533_iOS.jpg|20]], [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_130348915_iOS.jpg|21]] et [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_130639060_iOS.jpg|22]] :** le professeur paramètre les deux droites par $(\alpha,\alpha)$ et $(\alpha,-\alpha)$. Il utilise donc les mêmes **directions**, sans le facteur de normalisation $1/\sqrt2$.
 
 Dans la première direction,
 
@@ -353,7 +353,7 @@ f(\alpha,-\alpha)
 =2\alpha^2(\alpha-2)(\alpha+2).
 $$
 
-Le tableau de signes de la photo 22 est
+Le tableau de signes de la [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_130639060_iOS.jpg|photo 22]] est
 
 | Intervalle | $]-\infty,-2[$ | $-2$ | $]-2,0[$ | $0$ | $]0,2[$ | $2$ | $]2,+\infty[$ |
 |---|---|---|---|---|---|---|---|
@@ -370,7 +370,7 @@ Comme $f(0,0)=0$, la première droite donne des valeurs **au-dessus** de celle d
 
 ### Gradient et Hessienne
 
-**Au tableau, photo [[assets/TD1/sources/20261103_131157679_iOS.heic|23]] :**
+**Au tableau, [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_131157679_iOS.jpg|photo 23]] :**
 
 $$
 q(x)=\frac12x^TAx+b^Tx+c,
@@ -392,7 +392,7 @@ $$
 
 ### Première méthode commencée, les valeurs propres
 
-**Au tableau, photos [[assets/TD1/sources/20261103_131419503_iOS.heic|24]] et [[assets/TD1/sources/20261103_131850975_iOS.heic|25]] :** le professeur écrit le déterminant de $A-\lambda I$ et commence son développement selon la première ligne :
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_131419503_iOS.jpg|24]] et [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_131850975_iOS.jpg|25]] :** le professeur écrit le déterminant de $A-\lambda I$ et commence son développement selon la première ligne :
 
 $$
 \begin{aligned}
@@ -408,7 +408,7 @@ La photo écrit ensuite la forme générale $p(\lambda)=a\lambda^3+b\lambda^2+c\
 
 ### Deuxième méthode, le critère de Sylvester
 
-**Au tableau, photos [[assets/TD1/sources/20261103_132029464_iOS.heic|26]] à [[assets/TD1/sources/20261103_132717811_iOS.heic|29]] :** pour cette **matrice symétrique**, le critère demande les déterminants des blocs situés en haut à gauche, de tailles $1$, $2$, puis $3$.
+**Au tableau, photos [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_132029464_iOS.jpg|26]] à [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_132717811_iOS.jpg|29]] :** pour cette **matrice symétrique**, le critère demande les déterminants des blocs situés en haut à gauche, de tailles $1$, $2$, puis $3$.
 
 $$
 A_1=(5),\qquad
@@ -441,7 +441,7 @@ Les trois nombres sont **strictement positifs**, donc $A$ est **définie positiv
 
 ### Dernière ligne photographiée
 
-**Au tableau, photo [[assets/TD1/sources/20261103_133037164_iOS.heic|30]] :** le professeur conclut que $q$ est strictement convexe et écrit la condition du minimum global
+**Au tableau, photo [[01-Semestre-1/05-Optimisation-non-lineaire/assets/TD1/sources/20261103_133037164_iOS.jpg|30]] :** le professeur conclut que $q$ est strictement convexe et écrit la condition du minimum global
 
 $$
 \nabla q(x)=Ax+b=0
