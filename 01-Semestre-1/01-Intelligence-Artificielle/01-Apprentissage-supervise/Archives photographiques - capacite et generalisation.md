@@ -1,6 +1,6 @@
-# Archives photographiques — Cours 4
+# Archives photographiques — Capacité et généralisation
 
-Ces 23 images sont les sources de [[COUR 4|la transcription du 3 novembre]]. Les graphiques utiles sont intégrés dans la note. Les liens ci-dessous ouvrent les originaux.
+Ces 23 images sont les sources de [[CH4-Capacite-et-generalisation-du-perceptron|la transcription du 3 novembre]]. Les graphiques utiles sont intégrés dans la note. Les liens ci-dessous ouvrent les originaux.
 
 - [[assets/COUR-4/sources/20261103_074103050_iOS.heic|20261103_074103050_iOS.heic]]
 - [[assets/COUR-4/sources/20261103_074429868_iOS.heic|20261103_074429868_iOS.heic]]

@@ -1,7 +1,7 @@
 # 🧠 Cours 4 — Capacité du perceptron et généralisation
 
 > [!info] Place dans le cours
-> Cette note retranscrit les photos du **3 novembre 2026**. Elle continue [[CH3-Perceptron-et-apprentissage|le cours sur le perceptron et la règle de Hebb]]. Les explications et exemples ajoutés sont signalés. Les [[Archives photographiques - cours 4|23 photos originales]] restent disponibles.
+> Cette note retranscrit les photos du **3 novembre 2026**. Elle continue [[CH3-Perceptron-et-apprentissage|le cours sur le perceptron et la règle de Hebb]]. Les explications et exemples ajoutés sont signalés. Les [[Archives photographiques - capacite et generalisation|23 photos originales]] restent disponibles.
 
 ## 🗺️ Sommaire
 
