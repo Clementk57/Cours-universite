@@ -1,6 +1,6 @@
 # Archives photographiques — TD 1
 
-Ces photos sont les sources de [[TD1|la transcription du TD 1]]. Les images originales sont conservées dans le dossier de ressources.
+Ces photos sont les sources de [[TD1|la correction de l'exercice 1 et de la transcription de la séance au tableau]]. Les images originales sont conservées dans le dossier de ressources. Les photos 10 et 31 montrent la feuille imprimée.
 
 - [[assets/TD1/sources/20261103_120915130_iOS.heic|Photo 01 — 20261103_120915130_iOS.heic]]
 - [[assets/TD1/sources/20261103_120917962_iOS.heic|Photo 02 — 20261103_120917962_iOS.heic]]

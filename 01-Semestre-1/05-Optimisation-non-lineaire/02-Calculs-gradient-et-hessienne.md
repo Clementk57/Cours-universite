@@ -7,7 +7,7 @@
 > La fiche [[08-Comprendre-la-hessienne-pas-a-pas|Comprendre la Hessienne pas à pas]] détaille chaque multiplication, dérivée, case de la matrice, déterminant et valeur propre de l'exemple ci-dessous.
 
 > [!info] Ces exemples appartiennent au TD 1
-> Les fonctions de cette fiche et l'exercice des points stationnaires figurent sur la feuille du professeur. L'énoncé complet, la correction poursuivie au tableau et les autres exercices sont regroupés dans [[TD1|TD 1 — optimisation sans contrainte]].
+> Les fonctions de cette fiche et l'exercice des points stationnaires figurent sur la feuille du professeur. La suite **photographiée au tableau**, consacrée surtout aux exercices 2 et 3, se trouve dans [[TD1|la transcription de la séance de TD 1]].
 
 ## 1. Dérivées de référence
 

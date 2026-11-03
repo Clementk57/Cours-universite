@@ -17,7 +17,7 @@
 7. **Chercher un pas et utiliser Newton** : [[#3. Méthode de dichotomie|dichotomie]], [[#4. Newton à une variable|Newton à une variable]], [[#5. Newton en plusieurs variables|Newton à plusieurs variables]]
 8. **Aller plus loin** : [[#Quasi-Newton et gradient stochastique|quasi-Newton et gradient stochastique]]
 9. **S'entraîner** : [[01-Exercices-et-exemples|exercices et corrections]]
-10. **Faire le TD du professeur** : [[TD1|TD 1 — optimisation sans contrainte, énoncés et corrections]]
+10. **Faire le TD 1** : [[TD1|exercice 1 corrigé et transcription des exercices 2 et 3 photographiés]]
 
 ## Résumé pour comprendre le cours
 
