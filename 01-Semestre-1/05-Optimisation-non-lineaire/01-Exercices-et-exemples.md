@@ -1,60 +1,7 @@
-![[IMG_7430.jpeg]]
+# Exercices et exemples — Optimisation non linéaire
 
-![[IMG_7432.jpeg]]
-
-![[IMG_7433.jpeg]]
-
-![[IMG_7434.jpeg]]
-
-![[IMG_7435.jpeg]]
-
-![[IMG_7436.jpeg]]
-
-![[IMG_7438.jpeg]]
-
-![[IMG_7439.jpeg]]
-
-![[IMG_7440.jpeg]]
-
-![[IMG_7441.jpeg]]
-
-![[IMG_7443.jpeg]]
-
-![[IMG_7444.jpeg]]
-
-![[IMG_7445.jpeg]]
-
-![[IMG_7446.jpeg]]
-
-![[IMG_7447.jpeg]]
-
-![[IMG_7448.jpeg]]
-
-![[IMG_7449.jpeg]]
-
-![[IMG_7450.jpeg]]
-
-![[IMG_7451.jpeg]]
-
-![[IMG_7452.jpeg]]
-
-![[IMG_7454.jpeg]]
-
-![[IMG_7456.jpeg]]
-
-![[IMG_7457.jpeg]]
-
-![[IMG_7458.jpeg]]
-
-![[IMG_7460.jpeg]]
-
-![[IMG_7461.jpeg]]
-
-![[IMG_7462.jpeg]]
-
-![[IMG_7463.jpeg]]
-
-![[IMG_7464.jpeg]]# Exercices et exemples — Optimisation non linéaire
+> [!tip] Calculs de matrice expliqués
+> Si le calcul de la Hessienne, des déterminants ou des valeurs propres te bloque, commence par [[08-Comprendre-la-hessienne-pas-a-pas|la fiche pas à pas sur la Hessienne]]. Elle contient aussi un exercice corrigé.
 
 > [!abstract] À quoi sert cette note
 > Cette fiche accompagne [[00-Optimisation-non-lineaire]]. Elle reprend la même méthode sur des exemples très simples avant de revenir aux exercices du cours.

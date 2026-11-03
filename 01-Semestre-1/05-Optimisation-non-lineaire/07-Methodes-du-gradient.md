@@ -150,6 +150,10 @@ $$
 > [!warning] Ce que la preuve ne dit pas
 > Elle garantit la descente pour un pas suffisamment petit. Elle ne garantit pas qu'un pas arbitrairement grand fera diminuer la fonction.
 
+![[assets/IMG_7439.jpeg|650]]
+
+*Schéma du tableau : le point descend vers une vallée dont le fond représente ici le minimum.*
+
 ## Courbes et ensembles de niveau
 
 Soient $f:\mathbb{R}^n\to\mathbb{R}$ et $c\in\mathbb{R}$. L'ensemble de niveau associé à $c$ est :
@@ -251,6 +255,10 @@ $$
 $$
 
 Ce vecteur est radial et pointe vers l'extérieur du cercle, donc vers des valeurs plus grandes de $f$. Son opposé pointe vers l'origine, qui est le minimum global.
+
+![[assets/IMG_7444.jpeg|650]]
+
+*Dessin du cours : cercles de niveau et direction du gradient.*
 
 ## Algorithme de descente de gradient
 
@@ -534,6 +542,10 @@ La recherche exacte donne des directions successives orthogonales. Dans une vall
 
 > [!warning] Phénomène de zigzag
 > La direction choisie est la meilleure localement, mais elle ne tient pas compte de la forme générale de la vallée. Une forte différence entre les valeurs propres de la Hessienne peut donc ralentir la descente de gradient.
+
+![[assets/IMG_7463.jpeg|650]]
+
+*Dessin du tableau : les ellipses représentent les courbes de niveau d’une vallée allongée.*
 
 ## Descente de gradient avec momentum
 

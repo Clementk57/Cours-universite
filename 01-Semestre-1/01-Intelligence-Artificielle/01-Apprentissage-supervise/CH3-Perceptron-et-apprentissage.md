@@ -3,6 +3,9 @@
 > [!info] Origine
 > Transcription des photographies du cours du 2 novembre. Les exemples pédagogiques sont signalés comme des compléments.
 
+> [!note] Suite du cours
+> La séance suivante est transcrite dans [[COUR 4|capacité du perceptron, généralisation et Minerror]].
+
 > [!example] Pour pratiquer
 > Retrouve les documents et les explications dans [[Explication du TP perceptron|le TP sur le perceptron]].
 
