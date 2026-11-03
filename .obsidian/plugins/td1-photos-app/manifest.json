@@ -1,0 +1,9 @@
+{
+  "id": "td1-photos-app",
+  "name": "Photos du TD1 dans l'application système",
+  "version": "1.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Ouvre les liens JPG du TD1 avec l'application photo par défaut sur ordinateur.",
+  "author": "Cours-universite",
+  "isDesktopOnly": true
+}
