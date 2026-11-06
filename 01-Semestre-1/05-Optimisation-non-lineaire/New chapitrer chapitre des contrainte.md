@@ -248,4 +248,4 @@ Les photographies s'arrêtent au début de la caractérisation. La solution comp
 
 ---
 
-**Suite :** [[09-Comprendre-les-contraintes-et-KKT|Comprendre les contraintes et KKT]] · [[Archives photographiques - contraintes|Photos du cours]] · [[05-Bases-et-optimalite|Bases et optimalité]].
+**Suite :** [[Nouvelle note qui suit le cours sur les avec contraintes|Dualité et preuve de KKT]] · [[09-Comprendre-les-contraintes-et-KKT|Comprendre les contraintes et KKT]] · [[Archives photographiques - contraintes|Photos du cours]] · [[05-Bases-et-optimalite|Bases et optimalité]].
